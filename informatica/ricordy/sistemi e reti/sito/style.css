@@ -6,16 +6,21 @@ body{
     background-color: wheat;);
 }
 
-#cose{
+.cose{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#comeefatto{
+.comeefatto{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #fonti{
     font-family: "Times New Roman", Times, serif;
+}
+
+#tabella{
+    margin-left: auto;
+    margin-right: auto;
 }
