@@ -3,7 +3,51 @@
 using namespace std;
 
 int main(){
+	
+	//esercizi type casting
+	cout << "primo esercizio" << endl;
+	double unonumero1 = 3.14;
+	int unonumero2 = unonumero1;
+	cout << unonumero2 << endl;
+	
+	cout << "secondo esercizio" << endl;
+	int duenumero1 = 33;
+	char duenumero2 = static_cast <char> (duenumero1);
+	cout << duenumero2 << endl;
+	
+	cout << "terzo esercizio" << endl;
+	string trenumero1 = "15";
+	int trenumero2 = std::stoi(trenumero1);
+	cout << trenumero2;
+	
 	/*
+	//esercizi stringhe
+	cout << "primo esercizio" << endl;
+	string a = "mondo";
+	cout << a.find('n') << endl;
+	
+	cout << "secondo esercizio" << endl;
+	string b, c;
+	cout << "inserisci prima stringa" << endl;
+	cin >> b;
+	cout << "inserisci seconda stringa" << endl;
+	cin >> c;
+	cout << b+c << endl;
+	
+	cout << "terzo esercizio" << endl;
+	string d;
+	cout << "inserisci una stringa" << endl;
+	cin >> d;
+	cout << "lunghezza stringa = " << d.length() << endl;
+	
+	cout << "quarto esercizio" << endl;
+	string e = "hello";
+	string f = "world";
+	string ef = e+f;
+	cout << ef;
+	
+	
+	
 	int arpos[25];
 	int pos;
 	string arnom[25];
@@ -45,7 +89,7 @@ int main(){
 		}
 	}
 	cout << "mancini: " << mancini;
-	*/
+	
 //-------------------------------------------------------------------------------------------------------
 	int num_articoli;
 	float spesa_totale;
@@ -60,7 +104,7 @@ int main(){
 	}
 	else{
 		cout << "la spesa totale è: " << spesa_totale;
-	}
+	}*/
 	
 	return 0;
 }

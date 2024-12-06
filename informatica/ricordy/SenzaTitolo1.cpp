@@ -27,6 +27,37 @@ using namespace spazio;
 
 int main(){
 	
+	char carattere = 'A';
+	int carattereInt = carattere;
+	cout << carattereInt << endl;
+	
+	float x = 3.99;
+	int xInt = static_cast <int> (x);
+	cout << xInt << endl;
+	
+	int z = 65;
+	char zChar = static_cast <char> (z);
+	char zId = typeid(z).name();
+	char zCharId = typeid(zChar);
+	cout << zChar << zId << zCharId;
+	
+	
+	
+	/*string a = "hello";
+	string b = "world";
+	string c = "1";
+	string d = "2";
+	string aBcD = a+b+c+d;
+	a[1] = 'A';
+	//aBcD.clear();
+	cout << a << endl;
+	cout << a[0] << endl;
+	cout << aBcD.append("3") << endl;
+	cout << aBcD.find("l") << endl;
+	cout << aBcD.replace(10, 3, "456");
+	
+	
+	
 	int arpos[25];
 	int pos;
 	string arnom[25];
@@ -46,7 +77,7 @@ int main(){
 	}
 
 	
-	/*int voti[24];
+	int voti[24];
 	int voto;
 	for(int i=0; i<24; i++){
 		cout << "inserisci il voto " << i + 1 << ": " << endl;
