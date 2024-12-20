@@ -1,9 +1,38 @@
 #include <iostream>
 #include <string>
+#include <typeinfo>
 using namespace std;
 
 int main(){
 	
+	//esercizi operatori di comparazione
+	bool condizione1 = 32 == 31; 			   // falso
+	cout << boolalpha << condizione1 << endl; 
+	
+	int a = 4;
+	double b = 3.14;
+	bool condizione2 = typeid(a) == typeid(b); //falso
+	cout << boolalpha << condizione2 << endl;
+	
+	
+	//esercizi operatori logici
+	bool condizione3 = 10 < 13;    //vero
+	bool condizione4 = 53 != 90;
+	bool condizione34 = condizione3 && condizione4;
+	cout << boolalpha << condizione34 << endl;
+	
+	bool condizione5 = 13 > 16;
+	bool condizione6 = 43 <= 2;
+	bool condizione56 = condizione5 && condizione6; //vero
+	cout << boolalpha << !(condizione56) << endl;
+	
+	bool condizione7 = 4 == 4;
+	bool con; //Esercizio: Scrivi un programma che stampi "Vero" se il primo valore booleano è diverso dal secondo valore booleano, altrimenti stampi "Falso
+	
+	//Esercizio: Scrivi un programma che verifichi che dati due numeri interi (90 e 103) verifichi che il primo sia pari e minore di 100, il secondo numero invece che sia dispari e compreso tra 100 e 200.
+	
+	
+	/*
 	//esercizi type casting
 	cout << "primo esercizio" << endl;
 	double unonumero1 = 3.14;
@@ -20,7 +49,7 @@ int main(){
 	int trenumero2 = std::stoi(trenumero1);
 	cout << trenumero2;
 	
-	/*
+	
 	//esercizi stringhe
 	cout << "primo esercizio" << endl;
 	string a = "mondo";

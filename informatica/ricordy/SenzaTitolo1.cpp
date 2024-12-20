@@ -27,7 +27,16 @@ using namespace spazio;
 
 int main(){
 	
-	char carattere = 'A';
+	bool condizione = 65 == 65 && 4 >= 4;
+	bool condizione2 = 5 < 3 || 7 != 7;
+	cout << boolalpha << condizione << " " << condizione2 << endl;
+	
+	int num = 49;
+	bool condNum = num % 2 == 0 && num < 100;
+	cout << boolalpha << condNum << endl;
+	
+	
+	/*char carattere = 'A';
 	int carattereInt = carattere;
 	cout << carattereInt << endl;
 	
@@ -43,7 +52,7 @@ int main(){
 	
 	
 	
-	/*string a = "hello";
+	string a = "hello";
 	string b = "world";
 	string c = "1";
 	string d = "2";
@@ -192,7 +201,7 @@ int main(){
 
 	//cout << "risultato " << s;
     if (s == 3){
-        cout << "è 3";
+        cout << "ï¿½ 3";
     }
     else{
         cout << "altro";
