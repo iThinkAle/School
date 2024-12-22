@@ -14,17 +14,16 @@ int main()
     int numero = 10;
     cout << numero << endl;
 
-    const int lunghezza = 5;
-    lunghezza = 6;
+    const int lunghezza = 6;
     
     struct Persona 
     {
         string nome;
         string cognome;
         int eta;
-        string codice fiscale;
+        string codice_fiscale;
         
-    }
+    };
     
     return 0;
     
