@@ -27,7 +27,47 @@ using namespace spazio;
 
 int main(){
 	
-	bool condizione = 65 == 65 && 4 >= 4;
+	int numero2 = 90;      //condizione    if      else
+	string tipoNumero = (numero2 % 2 == 0) ? "pari" : "dispari";
+	cout << tipoNumero << endl;
+	
+	
+	int giorno;
+	cout << "scrivi un numero da 1 a 3 che rappresenti il tuo giorno preferito del weekend" << endl;
+	cin >> giorno;
+	
+	switch(giorno){
+		case 1:
+		cout << "venerd�" << endl;
+		break;
+		
+		case 2:
+		cout << "sabato" << endl;
+		break;
+		
+		case 3:
+		cout << "domenica" << endl;
+		break;
+		
+		default:
+		cout << "scelta errata" << endl;
+		break;
+	}
+	
+	
+	
+	int numero1 = 10;
+	if(numero1 < 100){
+		cout << "minore" << endl;
+	}
+	else if(numero1 > 100){
+		cout << "maggiore" << endl;
+	}
+	else{
+		cout << "uguale" << endl;
+	}
+	
+	/*bool condizione = 65 == 65 && 4 >= 4;
 	bool condizione2 = 5 < 3 || 7 != 7;
 	cout << boolalpha << condizione << " " << condizione2 << endl;
 	
@@ -36,7 +76,7 @@ int main(){
 	cout << boolalpha << condNum << endl;
 	
 	
-	/*char carattere = 'A';
+	char carattere = 'A';
 	int carattereInt = carattere;
 	cout << carattereInt << endl;
 	
