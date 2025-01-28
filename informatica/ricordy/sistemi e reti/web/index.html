@@ -4,6 +4,12 @@
         <meta charset="UTF-8">
         <title>SISRETI</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            #arturo{background: orange; color: red;}
+            #cassali{background: aquamarine; color: yellow;}
+            .testorosso{color:red}
+            .testoverde{color:green !important}
+        </style>
     </head>
 
     <body>
@@ -71,7 +77,7 @@
             <div>
                 <table border="1">
                     <tr><th>colonna 1</th><th>colonna 2</th></tr>
-                    <tr><td align="center">cella 1</td><td>cella 2</td></tr>
+                    <tr><td align="center">cella 1</td><td align="center">cella 2</td></tr>
                     <tr><td align="right">cella 3</td><td>cella 4</td></tr>
                 </table>
             </div>
@@ -79,8 +85,25 @@
         <br>
 
         <span class="span2"><!--secondo span-->
-            fine documento
+            fine documento<br>
+            inizio lezioni css
         </span>
+
+        <h3 id="cassali">lorem ipsum</h3>
+        <p id="arturo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>    
+        <p class="testorosso">
+            Natus quibusdam maiores dolor quasi veritatis qui autem maxime mollitia perferendis atque. 
+        </p>
+        <p class="testorosso">
+            Aperiam sed recusandae vitae ullam in neque, illo doloribus soluta.
+        </p>
+        <p class="testorosso" style="color: aquamarine;">
+            Tra gli attributi hanno priorità quelli in linea e quelli scritti dopo altri attributi (che agiscono su uno stesso elemento della pagina).
+        </p>
+        <p class="testoverde" style="color: black;">
+            Tuttavia se su un attributo viene inserito il comando important quell'attributo avrà priorità su tutti gli altri (tra quelli che agiscono su uno stesso elemento della pagina).
+        </p>
     </body>
 </html>
-  

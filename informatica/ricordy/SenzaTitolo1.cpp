@@ -38,7 +38,7 @@ int main(){
 	
 	switch(giorno){
 		case 1:
-		cout << "venerdï¿½" << endl;
+		cout << "venerdì" << endl;
 		break;
 		
 		case 2:
@@ -56,7 +56,7 @@ int main(){
 	
 	
 	
-	int numero1 = 10;
+	int numero1 = 90;
 	if(numero1 < 100){
 		cout << "minore" << endl;
 	}
