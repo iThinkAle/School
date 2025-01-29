@@ -40,7 +40,7 @@ int main(){
 	cin >> input;
 	lung = input.size();
 	while(i_tre < lung){
-		if(input[i_tre] == 'a' || input[i_tre] == 'e' || input[i_tre] == 'i' || input[i_tre] == 'o' || input[i_tre] == 'u'){
+		if(input[i_tre] == 'a' || input[i_tre] == 'e' || input[i_tre] == 'i' || input[i_tre] == 'o' || input[i_tre] == 'u' || input[i_tre] == 'A' || input[i_tre] == 'E' || input[i_tre] == 'I' || input[i_tre] == 'O' || input[i_tre] == 'U'){
 			vocali++;
 			i_tre++;
 		}
