@@ -28,10 +28,6 @@ int main(){
 		a = b;
 		b = n;
 		i_due++;
-		/*cout << a << endl;
-		int temp = a;
-		a = b;
-		b = temp + b;*/
 	}
 	
 	
@@ -58,7 +54,7 @@ int main(){
 	cout << "quarto esercizio" << endl;
 	int base;
 	int esponente;
-	int i_quattro;
+	int i_quattro = 0;
 	int ris = 1;
 	cout << "inserisci base" << endl;
 	cin >> base;
@@ -119,7 +115,9 @@ int main(){
 
 	
 	cout << "ottavo esercizio" << endl;
-	int pos, neg, nul;
+	int pos = 0;
+	int neg = 0;
+	int nul = 0;
 	for(int i_otto = 0; i_otto < 10; i_otto++) {
 		int n;
 		cout << "inserisci numero" << endl;
@@ -131,7 +129,7 @@ int main(){
 			neg++;
 		}
 		else if(n == 0){
-			nul++;				//da sistemare, output dei nulli errato
+			nul++;
 		}
 	}
 	cout << "positivi: " << pos << endl;
@@ -141,7 +139,8 @@ int main(){
 
 	cout << "nono esercizio" << endl;
 	int numalun;
-	float som, med;
+	float som = 0;
+	float med = 0;
 	cout << "inserisci numero alunni nella classe" << endl;
 	cin >> numalun;
 	for(int i_nove = 0; i_nove < numalun; i_nove++) {
@@ -153,7 +152,6 @@ int main(){
 		}
 		med = som / 5;
 		cout << "media alunno " << i_nove+1 << ": " << med << endl;
-		med = 0;
 		som = 0;
 	}
 
