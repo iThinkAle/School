@@ -27,6 +27,22 @@ using namespace spazio;
 
 int main(){
 	
+	for(int i = 1; i <= 10; i++){
+		if(i > 5){
+			continue;
+		}
+		cout << i << endl;
+	}
+	cout << "ciclo finito" << endl;
+	
+	
+	/*string nome = "luca";
+	for(char carattere : nome){
+		cout << carattere << endl;
+	}
+	
+	
+	
 	int numero2 = 90;      //condizione    if      else
 	string tipoNumero = (numero2 % 2 == 0) ? "pari" : "dispari";
 	cout << tipoNumero << endl;
@@ -67,7 +83,7 @@ int main(){
 		cout << "uguale" << endl;
 	}
 	
-	/*bool condizione = 65 == 65 && 4 >= 4;
+	bool condizione = 65 == 65 && 4 >= 4;
 	bool condizione2 = 5 < 3 || 7 != 7;
 	cout << boolalpha << condizione << " " << condizione2 << endl;
 	

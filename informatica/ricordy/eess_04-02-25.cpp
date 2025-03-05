@@ -22,15 +22,13 @@ int main(){
 			break;
 		}
 		else{
-            cout << "inserire un numero tra 5 e 10" << endl;
 			continue;
 		}
 	}while(true);
 	
 	
 	
-	int som = 0;
-    int par = 0;
+	int som, par;
 	do{
 		int z;
 		cout << "inserire numero intero" << endl;
@@ -39,8 +37,8 @@ int main(){
 		if(z % 2 == 0){
 			par++;
 		}
-	}while(par < 6);
-	cout << "la somma ï¿½ " << som << endl;
+	}while(par <= 6);
+	cout << "la somma è " << som << endl;
 	
 	
 	return 0;
