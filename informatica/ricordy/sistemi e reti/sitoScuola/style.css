@@ -2,8 +2,4 @@
     text-align: center;
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: fixed;
-    z-index: 1;
-    background-size: cover; 
-    background-color: white;
 }
