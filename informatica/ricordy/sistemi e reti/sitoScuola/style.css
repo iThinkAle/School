@@ -1,5 +1,14 @@
-#intestazione{
-    text-align: center;
+#header{
     font-size: 60px;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:yellowgreen;
+    padding: 30px;
+}
+.titoli{
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    padding: 10px;
 }
