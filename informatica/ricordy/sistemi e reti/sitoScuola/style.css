@@ -1,7 +1,8 @@
 body{
     background-color: lightgray;
 }
-#header{
+
+header{
     font-size: 60px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,6 +16,24 @@ body{
     font-size: 40px;
 
 }
+
+.titoli{
+    text-align: left;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c50621;
+    padding: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.paragrafo:hover{
+    background-color: lightgray;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+/*------------------------------------------------------------*/
 
 nav{
     background-color: #333;
@@ -38,21 +57,5 @@ nav a:hover{
 
 nav a.active{
     background-color: #c50621;
-}
-
-.titoli{
-    text-align: left;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #c50621;
-    padding: 7px;
-    margin-bottom: 10px;
-    color: white;
-}
-
-.paragrafo:hover{
-    background-color: lightgray;
-    padding: 10px;
-    transition-duration: 0.4s;
 }
 
