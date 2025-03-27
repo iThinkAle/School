@@ -1,24 +1,19 @@
+body{
+    background-color: lightgray;
+}
 #header{
     font-size: 60px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:yellowgreen;
+    background-color: #c50621;
     padding: 30px;
-
-}
-.titoli{
-    text-align: left;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: yellowgreen;
-    padding: 7px;
-    margin-bottom: 10px;
+    color: white;
 }
 
-.paragrafo:hover{
-    background-color: yellowgreen;
-    padding: 10px;
-    transition-duration: 0.4s;
+#home{
+    text-align: center;
+    font-size: 40px;
+
 }
 
 nav{
@@ -27,7 +22,7 @@ nav{
 }
 
 nav a{
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -42,5 +37,22 @@ nav a:hover{
 }
 
 nav a.active{
-    background-color: #4caf50;
+    background-color: #c50621;
 }
+
+.titoli{
+    text-align: left;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c50621;
+    padding: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.paragrafo:hover{
+    background-color: lightgray;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
