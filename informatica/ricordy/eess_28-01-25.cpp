@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	cout << "primo esercizio" << endl;
+	/*cout << "primo esercizio" << endl;
 	int i_uno = 3;
 	while(i_uno <= 100){
 		cout << i_uno << endl;
@@ -86,7 +86,7 @@ int main(){
 			continue;	
 		}
 	}
-	cout << "minimo: " << min << endl;
+	cout << "minimo: " << min << endl;*/
 	
 	
 	cout << "settimo esercizio" << endl;

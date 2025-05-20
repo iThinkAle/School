@@ -22,7 +22,7 @@ int main(){
 	
 	cout << "inserisci numero" << endl;
 	cin >> num;
-	cout << "il numero ï¿½ primo? " << boolalpha << numprimo(num) << endl;
+	cout << "il numero è primo? " << boolalpha << numprimo(num) << endl;
 	
 	return 0;
 }
