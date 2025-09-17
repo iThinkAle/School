@@ -15,10 +15,10 @@ int diff(int a, int b, int c){
 	}
 	else{
 		if(b < c){
-			min = b
+			min = b;
 		}
 		else{
-			min = c
+			min = c;
 		}
 	}
 	
@@ -33,10 +33,10 @@ int diff(int a, int b, int c){
 	}
 	else{
 		if(b > c){
-			max = b
+			max = b;
 		}
 		else{
-			max = c
+			max = c;
 		}
 	}	
 	
@@ -56,7 +56,7 @@ int main(){
 	cin >> c;
 	
 	ris = diff(a, b, c);
-	cout << "la differenza tra il minimo è il massimo è " << ris << endl;
+	cout << "la differenza tra il minimo ï¿½ il massimo ï¿½ " << ris << endl;
 	
 	return 0;
 }

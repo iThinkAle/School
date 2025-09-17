@@ -11,12 +11,13 @@ int main(){
 		cin >> bin[i];
 	}
 	
-	for(int k = 0; k < 6; k++){
-		if(bin[k] = 1)
-			dec += 2 ^ 5-k;
+	for(int i = 0; i < 6; i++){
+		if(bin[i] = 1){
+			dec += 2 ^ 5-i;
+		}
 	}
 	
-	cout << "il decimale corrispondente è " << dec << endl;
+	cout << "il decimale corrispondente ï¿½ " << dec << endl;
 	
 	return 0;
 }
