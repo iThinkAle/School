@@ -38,7 +38,7 @@ int diff(int a, int b, int c){
 		else{
 			max = c;
 		}
-	}	
+	}
 	
 	diff = max - min;
 	
