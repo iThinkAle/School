@@ -1,5 +1,5 @@
-/*Dati 24 alunni, calcolare e stampare il numero di quelli di sesso maschile. Il sesso va gestito come una variabile intera dove maschio = 0 e donna = 1
-Ho aggiunto la gestione degli errori e dei valori non utili*/
+//Dati 24 alunni, calcolare e stampare il numero di quelli di sesso maschile. Il sesso va gestito come una variabile intera dove maschio = 0 e donna = 1
+//Ho aggiunto la gestione degli errori e dei valori non utili
 
 import java.io.*;
 
