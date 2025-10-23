@@ -3,10 +3,9 @@
 
 public class Main26_10 {
     public static void main(String[] args) {
-        int l = 2;
         int[][] matr1;
         int[][] matr2;
-        int[][] matrsom = new int[l][l];
+        int[][] matrsom;
 
         Main26_10_randMatr retMatr = new Main26_10_randMatr();
         Main26_10_matrOps matrOps = new Main26_10_matrOps();
