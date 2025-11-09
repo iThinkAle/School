@@ -1,6 +1,5 @@
 package src10_11;
 
-import javax.naming.ldap.Control;
 import java.io.*;
 
 public class ProgContoCorrente {
